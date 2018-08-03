@@ -1,0 +1,42 @@
+html, body {
+  height: 100vh;
+  background: ghostwhite;
+  line-height: 1.2;
+}
+body {
+  font-family: 'Josefin Sans', sans-serf;
+  color: #181615;
+}
+a {
+  color: #181615;
+}
+
+.flex-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.masthead {
+  text-align: center;
+  padding: 1rem;
+}
+.title {
+  font-family: 'Eczar', sans-serif;
+  text-transform: uppercase;
+}
+h1.title {
+  margin: 0;
+  font-size: 3rem;
+  line-height: 1;
+}
+p.subtitle {
+  font-size: 1.6rem;
+}
+
+@media (min-width: 620px) {
+  .wrap { max-width: 960px; }
+  h1.title { font-size: 6rem; }
+  p.subtitle { font-size: 3rem; }
+}
